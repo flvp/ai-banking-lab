@@ -1,0 +1,16 @@
+profissao,escolaridade_base,renda_multiplicador
+analista_financeiro,superior_completo,1.4
+engenheiro_de_software,superior_completo,1.8
+medico,pos_graduacao,2.4
+advogado,superior_completo,1.7
+professor,superior_completo,1.1
+empresario,superior_completo,2.2
+administrador,superior_completo,1.5
+consultor,pos_graduacao,1.9
+gerente_comercial,superior_completo,1.6
+autonomo,medio_completo,1.2
+arquiteto,superior_completo,1.7
+contador,superior_completo,1.4
+designer,superior_completo,1.2
+dentista,pos_graduacao,2.0
+economista,superior_completo,1.8

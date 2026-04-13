@@ -1,0 +1,166 @@
+{
+  "politicas": {
+    "politica_pix": {
+      "objetivos": [
+        "Definir as regras de uso, analise e compensacao para operacoes relacionadas ao produto {produto}.",
+        "Estabelecer diretrizes operacionais para movimentacoes vinculadas ao produto {produto}."
+      ],
+      "escopos": [
+        "Aplica-se a clientes, canais digitais e equipes internas relacionadas ao produto {produto}.",
+        "Abrange clientes elegiveis, fluxos operacionais e monitoramento do produto {produto}."
+      ],
+      "regras": [
+        "Operacoes do produto {produto} podem passar por monitoramento adicional em casos de risco elevado.",
+        "Pedidos vinculados ao produto {produto} devem respeitar o SLA definido pela central de atendimento.",
+        "A compensacao ou liberacao do produto {produto} depende da validacao dos eventos operacionais."
+      ],
+      "excecoes": [
+        "Casos com suspeita de fraude podem receber tratamento manual imediato.",
+        "Clientes private podem receber acompanhamento dedicado conforme o segmento."
+      ],
+      "procedimentos": [
+        "Receber a solicitacao e validar o identificador operacional.",
+        "Consultar o historico do produto {produto} e registrar o protocolo.",
+        "Concluir o retorno ao cliente conforme a politica vigente."
+      ],
+      "exemplos": [
+        "PIX em analise por camada adicional de seguranca.",
+        "Contestacao de movimentacao com comprovante anexado."
+      ],
+      "observacoes": [
+        "As regras podem sofrer revisao trimestral.",
+        "Toda resposta ao cliente deve citar prazos e proximo passo."
+      ]
+    },
+    "politica_cartoes": {
+      "objetivos": [
+        "Padronizar tratamento de uso, bloqueio e contestacao do produto {produto}.",
+        "Estabelecer criterios de seguranca e limite para o produto {produto}."
+      ],
+      "escopos": [
+        "Abrange cartoes e canais de atendimento relacionados ao produto {produto}.",
+        "Aplica-se a clientes varejo, alta renda e private com acesso ao produto {produto}."
+      ],
+      "regras": [
+        "Compras fora do perfil podem gerar bloqueio preventivo do produto {produto}.",
+        "Pedidos de aumento de limite devem observar a renda e o relacionamento do cliente.",
+        "Contestacoes do produto {produto} devem manter o historico completo da analise."
+      ],
+      "excecoes": [
+        "Falhas sistêmicas podem demandar retomada manual do limite.",
+        "Cartoes premium podem seguir fila prioritária de suporte."
+      ],
+      "procedimentos": [
+        "Identificar o cartao e o evento reportado.",
+        "Executar a trilha de seguranca e registrar evidencias.",
+        "Retornar ao cliente com orientacao e prazo."
+      ],
+      "exemplos": [
+        "Compra recusada por suspeita de uso atipico.",
+        "Contestacao de compra online nao reconhecida."
+      ],
+      "observacoes": [
+        "O contato com o cliente deve reforcar boas praticas de seguranca."
+      ]
+    }
+  },
+  "faqs": {
+    "faq_pix": {
+      "objetivos": [
+        "Responder perguntas frequentes sobre o produto {produto}.",
+        "Orientar clientes sobre o uso recorrente do produto {produto}."
+      ],
+      "escopos": [
+        "FAQ publico para clientes dos canais digitais.",
+        "Material de apoio para times de atendimento sobre o produto {produto}."
+      ],
+      "regras": [
+        "As respostas devem ser objetivas e aderentes ao fluxo vigente.",
+        "Sempre informar prazos e excecoes de monitoramento.",
+        "Quando houver analise manual, orientar abertura de protocolo."
+      ],
+      "excecoes": [
+        "Casos criticos devem ser desviados para atendimento humano.",
+        "Pedidos com inconsistencias cadastrais podem exigir nova validacao."
+      ],
+      "procedimentos": [
+        "Ler a duvida enviada pelo cliente.",
+        "Associar a resposta ao contexto do produto {produto}.",
+        "Sugerir o proximo passo objetivo."
+      ],
+      "exemplos": [
+        "Como acompanhar um PIX em analise.",
+        "Como localizar comprovante ou status de uma operacao."
+      ],
+      "observacoes": [
+        "A linguagem deve ser clara e sem termos excessivamente tecnicos."
+      ]
+    }
+  },
+  "manuais": {
+    "manual_atendimento": {
+      "objetivos": [
+        "Orientar o passo a passo operacional de atendimento sobre o produto {produto}.",
+        "Detalhar a execucao padrao da demanda envolvendo o produto {produto}."
+      ],
+      "escopos": [
+        "Uso interno pelas equipes de atendimento e operacoes.",
+        "Abrange atendimento humano, digital e tratamento de backoffice."
+      ],
+      "regras": [
+        "Todo protocolo deve registrar causa, impacto e proximo passo.",
+        "Eventos do produto {produto} devem manter rastreabilidade completa.",
+        "O retorno ao cliente precisa respeitar a fila e prioridade aplicavel."
+      ],
+      "excecoes": [
+        "Ocorrencias de seguranca podem saltar etapas de fila.",
+        "Demandas de clientes premium podem ser redirecionadas a times dedicados."
+      ],
+      "procedimentos": [
+        "Validar a identidade do cliente.",
+        "Conferir o historico associado ao produto {produto}.",
+        "Aplicar a rotina operacional e registrar a conclusao."
+      ],
+      "exemplos": [
+        "Fluxo de resgate com prazo de liquidez.",
+        "Fluxo de bloqueio preventivo por suspeita de fraude."
+      ],
+      "observacoes": [
+        "Manter o procedimento atualizado com mudancas regulatórias."
+      ]
+    }
+  },
+  "regras_internas": {
+    "regra_priorizacao": {
+      "objetivos": [
+        "Definir criterios internos de priorizacao para o produto {produto}.",
+        "Padronizar escalonamento e tratamento interno de ocorrencias."
+      ],
+      "escopos": [
+        "Aplica-se as filas operacionais que tratam o produto {produto}.",
+        "Abrange classificacao, escalonamento e monitoramento das demandas."
+      ],
+      "regras": [
+        "Tickets criticos entram imediatamente em fila dedicada.",
+        "Clientes private ou alta renda podem receber priorizacao adicional.",
+        "Ocorrencias com suspeita de fraude exigem evidencias minimas antes do encerramento."
+      ],
+      "excecoes": [
+        "Eventos massivos podem acionar plano de contingencia.",
+        "Falhas de terceiros podem exigir SLA revisado."
+      ],
+      "procedimentos": [
+        "Classificar a demanda por impacto e urgencia.",
+        "Definir a fila adequada para o produto {produto}.",
+        "Acompanhar o SLA ate a resolucao."
+      ],
+      "exemplos": [
+        "Priorizar fraude critica com bloqueio preventivo.",
+        "Direcionar investimento com valor elevado para mesa especializada."
+      ],
+      "observacoes": [
+        "A regra deve ser conhecida pelas equipes de atendimento e operacoes."
+      ]
+    }
+  }
+}

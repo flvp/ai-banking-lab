@@ -1,0 +1,87 @@
+{
+  "acesso_app": {
+    "resumo": [
+      "Cliente relata dificuldade de acesso ao aplicativo",
+      "Acesso ao app indisponivel desde {periodo}",
+      "Falha recorrente de autenticacao no canal digital"
+    ],
+    "descricao": [
+      "Desde {periodo} tento acessar o aplicativo e recebo a mensagem {erro}. Preciso resolver isso hoje porque uso a conta para movimentacoes do dia a dia.",
+      "Meu acesso no app ficou bloqueado apos {evento}. O erro exibido foi {erro} e nao consegui validar a biometria.",
+      "Ao tentar entrar no aplicativo pelo celular, o sistema informa {erro}. Ja reiniciei o aparelho e o problema continua."
+    ],
+    "resposta": [
+      "Validamos o bloqueio informado e aplicamos a rotina padrao de desbloqueio. Orientamos o cliente a repetir o acesso em ate {prazo} horas.",
+      "A autenticacao digital foi regularizada com sucesso. Caso o erro persista apos {prazo} horas, o cliente deve atualizar o aplicativo e tentar novamente.",
+      "Registramos a ocorrencia e liberamos uma nova validacao de seguranca. O retorno final sera enviado dentro do SLA de {prazo} horas."
+    ]
+  },
+  "pix": {
+    "resumo": [
+      "Cliente solicita analise de PIX nao compensado",
+      "Contestacao de PIX no valor de {valor_formatado}",
+      "Transferencia PIX em analise pelo banco"
+    ],
+    "descricao": [
+      "Realizei um PIX no valor de {valor_formatado} em {momento} e o destinatario informou que o valor ainda nao caiu. O comprovante mostra status {status}.",
+      "Fiz uma transferencia PIX para um favorecido cadastrado, no valor de {valor_formatado}, mas o recebedor afirma nao ter localizado o credito.",
+      "Meu PIX aparece como {status} desde {momento}. Preciso confirmar se houve compensacao ou se existe alguma pendencia de seguranca."
+    ],
+    "resposta": [
+      "Conferimos a transacao e encaminhamos a validacao na esteira de compensacao. O cliente foi orientado a compartilhar o comprovante e aguardar ate {prazo} horas.",
+      "A operacao foi localizada e segue em monitoramento. Retornaremos com a posicao final dentro de {prazo} horas ou antes, se houver regularizacao imediata.",
+      "Confirmamos o registro da contestacao. Caso a transferencia permaneça em analise apos {prazo} horas, sera iniciado o fluxo de tratamento operacional."
+    ]
+  },
+  "cartao": {
+    "resumo": [
+      "Cliente questiona compra no cartao",
+      "Solicitacao sobre limite ou contestacao de cartao",
+      "Atendimento sobre uso do cartao e seguranca"
+    ],
+    "descricao": [
+      "Identifiquei uma compra no cartao em {momento} no estabelecimento {estabelecimento} e nao reconheco a transacao.",
+      "Preciso revisar o limite do cartao porque a compra de {valor_formatado} nao foi aprovada, apesar de haver margem disponivel.",
+      "Meu cartao apresentou recusa em uma transacao recente e desejo entender se existe bloqueio preventivo ou necessidade de nova validacao."
+    ],
+    "resposta": [
+      "Realizamos a verificacao inicial do cartao e registramos o protocolo de analise. O retorno sera enviado em ate {prazo} horas.",
+      "O limite foi revisado conforme a politica vigente e orientamos o cliente sobre os proximos passos para utilizacao segura do cartao.",
+      "A contestacao foi aberta com sucesso. O cliente recebera atualizacoes periodicas ate a conclusao da analise."
+    ]
+  },
+  "investimento": {
+    "resumo": [
+      "Cliente solicita esclarecimento sobre investimento",
+      "Atendimento sobre aplicacao ou resgate",
+      "Duvida sobre produto de investimento e liquidez"
+    ],
+    "descricao": [
+      "Solicitei resgate do produto {produto} em {momento}, mas o valor ainda nao apareceu na conta. Gostaria de confirmar o prazo de liquidez.",
+      "Tenho duvida sobre a rentabilidade e a taxa aplicadas ao produto {produto}. O app mostra informacoes diferentes do esperado.",
+      "Fiz uma aplicacao recente no produto {produto} e quero validar se a operacao foi concluida corretamente e quando ficara disponivel para consulta."
+    ],
+    "resposta": [
+      "Conferimos a movimentacao do produto {produto} e enviamos a orientacao conforme a politica de liquidez. O acompanhamento seguira ate a conclusao da demanda.",
+      "Registramos a solicitacao e disponibilizamos os detalhes de taxa e prazo do produto {produto}. Caso necessario, a equipe especializada fara novo contato.",
+      "A operacao foi localizada com sucesso. O cliente foi orientado sobre a janela de processamento e a exibicao no extrato."
+    ]
+  },
+  "fraude": {
+    "resumo": [
+      "Alerta de possivel fraude em conta ou cartao",
+      "Cliente relata operacao suspeita e pede bloqueio",
+      "Ocorrencia critica de seguranca"
+    ],
+    "descricao": [
+      "Recebi notificacao de operacao suspeita em {momento} e nao reconheco a movimentacao de {valor_formatado}. Solicito bloqueio preventivo imediato.",
+      "Observei acessos e movimentacoes que nao autorizei na conta. Preciso confirmar as transacoes e entender quais medidas de seguranca foram aplicadas.",
+      "Uma compra ou transferencia suspeita foi registrada recentemente e desejo a abertura imediata de protocolo de fraude, com analise prioritária."
+    ],
+    "resposta": [
+      "Acionamos o fluxo prioritario de prevencao a fraude e aplicamos bloqueio preventivo quando necessario. O caso seguira com retorno continuo dentro do SLA critico.",
+      "Registramos a suspeita e iniciamos a analise reforcada de seguranca. O cliente recebeu orientacoes de preservacao de acesso e monitoramento.",
+      "A ocorrencia foi direcionada para a fila especializada. O banco informara os proximos passos assim que a triagem for concluida."
+    ]
+  }
+}
