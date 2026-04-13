@@ -47,8 +47,8 @@
         "Contestacoes do produto {produto} devem manter o historico completo da analise."
       ],
       "excecoes": [
-        "Falhas sistêmicas podem demandar retomada manual do limite.",
-        "Cartoes premium podem seguir fila prioritária de suporte."
+        "Falhas sistemicas podem demandar retomada manual do limite.",
+        "Cartoes premium podem seguir fila prioritaria de suporte."
       ],
       "procedimentos": [
         "Identificar o cartao e o evento reportado.",
@@ -61,6 +61,37 @@
       ],
       "observacoes": [
         "O contato com o cliente deve reforcar boas praticas de seguranca."
+      ]
+    },
+    "politica_fraude": {
+      "objetivos": [
+        "Definir as regras de prevencao e tratamento de fraude para eventos ligados ao produto {produto}.",
+        "Orientar o bloqueio preventivo e a analise especializada de suspeitas envolvendo o produto {produto}."
+      ],
+      "escopos": [
+        "Abrange equipes de fraude, atendimento e monitoramento operacional.",
+        "Aplica-se a clientes e transacoes com sinais de risco associados ao produto {produto}."
+      ],
+      "regras": [
+        "Toda suspeita relevante deve gerar protocolo de fraude com rastreabilidade completa.",
+        "Bloqueios preventivos podem ser aplicados antes da conclusao da analise.",
+        "Casos criticos devem seguir fila especializada e resposta reforcada."
+      ],
+      "excecoes": [
+        "Eventos massivos podem ativar contingencia operacional.",
+        "Clientes private podem receber contato proativo adicional."
+      ],
+      "procedimentos": [
+        "Classificar a suspeita e coletar evidencias minimas.",
+        "Aplicar bloqueio ou monitoramento conforme criticidade.",
+        "Comunicar o cliente e direcionar o caso para a trilha adequada."
+      ],
+      "exemplos": [
+        "PIX com valor fora do perfil do cliente.",
+        "Compra ou transferencia nao reconhecida com necessidade de bloqueio."
+      ],
+      "observacoes": [
+        "Casos de fraude devem citar prazo de retorno e proximo passo."
       ]
     }
   },
@@ -95,6 +126,99 @@
       "observacoes": [
         "A linguagem deve ser clara e sem termos excessivamente tecnicos."
       ]
+    },
+    "faq_cartao": {
+      "objetivos": [
+        "Responder duvidas frequentes sobre cartao e seguranca do produto {produto}.",
+        "Apoiar atendimentos recorrentes ligados ao cartao associado ao produto {produto}."
+      ],
+      "escopos": [
+        "FAQ para clientes dos canais digitais e de atendimento.",
+        "Material para orientar duvidas sobre limite, contestacao e uso do cartao."
+      ],
+      "regras": [
+        "Sempre informar proximo passo e prazo quando houver contestacao.",
+        "Orientar boas praticas de seguranca quando houver risco de uso indevido.",
+        "Direcionar casos complexos para analise especializada."
+      ],
+      "excecoes": [
+        "Falhas massivas podem alterar o prazo de resposta.",
+        "Clientes premium podem receber tratativa diferenciada."
+      ],
+      "procedimentos": [
+        "Identificar a duvida principal do cliente.",
+        "Relacionar a resposta ao contexto do produto {produto}.",
+        "Finalizar com orientacao objetiva de acompanhamento."
+      ],
+      "exemplos": [
+        "Como contestar uma compra nao reconhecida.",
+        "Como solicitar revisao de limite no cartao."
+      ],
+      "observacoes": [
+        "As respostas devem evitar jargao excessivo."
+      ]
+    },
+    "faq_investimentos": {
+      "objetivos": [
+        "Responder perguntas frequentes sobre investimento e liquidez do produto {produto}.",
+        "Padronizar orientacoes sobre aplicacao, resgate e visualizacao de investimento."
+      ],
+      "escopos": [
+        "FAQ para clientes e equipes de atendimento ligadas a investimento.",
+        "Abrange duvidas de prazo, taxa e exibicao do produto {produto}."
+      ],
+      "regras": [
+        "Sempre esclarecer prazo de liquidez e janela de processamento.",
+        "Informar quando a analise exige revisao operacional.",
+        "Citar o produto {produto} de forma clara ao responder."
+      ],
+      "excecoes": [
+        "Eventos regulatórios podem alterar prazos.",
+        "Produtos descontinuados podem demandar contato humano."
+      ],
+      "procedimentos": [
+        "Ler a duvida enviada pelo cliente.",
+        "Relacionar a resposta ao fluxo do produto {produto}.",
+        "Indicar o canal de acompanhamento quando aplicavel."
+      ],
+      "exemplos": [
+        "Quando um resgate de investimento fica disponivel na conta.",
+        "Como consultar taxa e rentabilidade do produto."
+      ],
+      "observacoes": [
+        "A resposta deve ser curta e objetiva."
+      ]
+    },
+    "faq_fraude": {
+      "objetivos": [
+        "Responder perguntas frequentes sobre suspeita de fraude e bloqueio preventivo.",
+        "Explicar o fluxo inicial de seguranca em casos envolvendo o produto {produto}."
+      ],
+      "escopos": [
+        "FAQ para clientes com ocorrencias de risco operacional.",
+        "Material de apoio para atendimento de casos de fraude."
+      ],
+      "regras": [
+        "Sempre orientar o cliente a registrar a suspeita o quanto antes.",
+        "Informar que bloqueios preventivos podem ocorrer por seguranca.",
+        "Casos criticos devem ser priorizados."
+      ],
+      "excecoes": [
+        "Eventos massivos podem alterar tempo de retorno.",
+        "Casos sem evidencias suficientes podem seguir monitoramento adicional."
+      ],
+      "procedimentos": [
+        "Identificar o tipo de suspeita relatada.",
+        "Explicar o fluxo inicial de seguranca.",
+        "Orientar acompanhamento do protocolo."
+      ],
+      "exemplos": [
+        "Como agir apos identificar um PIX suspeito.",
+        "O que acontece apos um bloqueio preventivo da conta."
+      ],
+      "observacoes": [
+        "As respostas devem preservar tom de urgencia controlada."
+      ]
     }
   },
   "manuais": {
@@ -128,6 +252,68 @@
       "observacoes": [
         "Manter o procedimento atualizado com mudancas regulatórias."
       ]
+    },
+    "manual_investimentos": {
+      "objetivos": [
+        "Descrever o passo a passo operacional para demandas de investimento do produto {produto}.",
+        "Padronizar o atendimento de aplicacao e resgate associado ao produto {produto}."
+      ],
+      "escopos": [
+        "Uso interno por atendimento, operacoes e backoffice de investimento.",
+        "Abrange consultas, resgates e conciliacao de investimento."
+      ],
+      "regras": [
+        "Toda demanda deve registrar produto, prazo e status operacional.",
+        "Casos com atraso de liquidez devem seguir trilha especializada.",
+        "A resposta final precisa citar janela de processamento."
+      ],
+      "excecoes": [
+        "Falhas externas podem alterar o prazo de exibicao no extrato.",
+        "Produtos descontinuados podem exigir redirecionamento."
+      ],
+      "procedimentos": [
+        "Identificar o produto {produto} e o evento reportado.",
+        "Validar a etapa operacional da movimentacao.",
+        "Retornar ao cliente com prazo e proximo passo."
+      ],
+      "exemplos": [
+        "Resgate de investimento ainda nao creditado.",
+        "Aplicacao concluida sem reflexo imediato no app."
+      ],
+      "observacoes": [
+        "Usar linguagem clara ao explicar liquidez e prazo."
+      ]
+    },
+    "manual_acesso": {
+      "objetivos": [
+        "Padronizar o atendimento de acesso ao app e autenticacao de seguranca.",
+        "Orientar a tratativa operacional de falhas de acesso ao produto {produto}."
+      ],
+      "escopos": [
+        "Abrange app, web e etapas de autenticacao digital.",
+        "Aplica-se a clientes com falhas de acesso e validacao."
+      ],
+      "regras": [
+        "Sempre validar a identidade antes de qualquer liberacao.",
+        "Bloqueios de acesso devem registrar causa e horario.",
+        "Falhas repetidas devem ser encaminhadas para suporte especializado."
+      ],
+      "excecoes": [
+        "Instabilidades massivas seguem comunicacao de contingencia.",
+        "Clientes premium podem receber suporte dedicado."
+      ],
+      "procedimentos": [
+        "Validar a identidade do cliente.",
+        "Conferir o historico de acesso e a causa do bloqueio.",
+        "Aplicar desbloqueio ou encaminhamento conforme a politica vigente."
+      ],
+      "exemplos": [
+        "Erro de biometria recorrente no app.",
+        "Acesso bloqueado apos tentativa de login."
+      ],
+      "observacoes": [
+        "Todo retorno deve informar prazo e orientacao de novo acesso."
+      ]
     }
   },
   "regras_internas": {
@@ -160,6 +346,68 @@
       ],
       "observacoes": [
         "A regra deve ser conhecida pelas equipes de atendimento e operacoes."
+      ]
+    },
+    "regra_fraude": {
+      "objetivos": [
+        "Definir como a fila interna trata eventos de fraude ligados ao produto {produto}.",
+        "Padronizar escalonamento de casos com suspeita critica."
+      ],
+      "escopos": [
+        "Aplica-se a times de risco, fraude e atendimento.",
+        "Abrange suspeitas de movimentacao, acesso e uso indevido."
+      ],
+      "regras": [
+        "Casos criticos entram imediatamente em fila dedicada.",
+        "Bloqueio preventivo pode ser aplicado antes da conclusao da triagem.",
+        "Toda fraude exige rastreabilidade de evidencias."
+      ],
+      "excecoes": [
+        "Contingencias podem redistribuir o backlog.",
+        "Clientes premium podem receber contato proativo."
+      ],
+      "procedimentos": [
+        "Classificar a severidade da suspeita.",
+        "Aplicar a fila e o protocolo corretos.",
+        "Acompanhar SLA ate o encerramento."
+      ],
+      "exemplos": [
+        "PIX suspeito com valor elevado.",
+        "Conta acessada em padrao atipico."
+      ],
+      "observacoes": [
+        "Registrar toda mudanca de status no protocolo."
+      ]
+    },
+    "regra_acesso": {
+      "objetivos": [
+        "Definir priorizacao e tratamento interno para falhas de acesso.",
+        "Padronizar o suporte a bloqueios e erros de autenticacao."
+      ],
+      "escopos": [
+        "Aplica-se as filas internas de suporte digital.",
+        "Abrange app, web e autenticacao complementar."
+      ],
+      "regras": [
+        "Falhas recorrentes devem ser agrupadas por incidente.",
+        "Clientes sem acesso ao app precisam de orientacao imediata.",
+        "Erros de autenticacao devem registrar a causa predominante."
+      ],
+      "excecoes": [
+        "Incidentes massivos seguem plano de contingencia.",
+        "Clientes de alta renda podem receber priorizacao adicional."
+      ],
+      "procedimentos": [
+        "Classificar o erro de acesso reportado.",
+        "Definir a fila de atendimento adequada.",
+        "Registrar a tratativa e a devolutiva."
+      ],
+      "exemplos": [
+        "Biometria recusada em serie.",
+        "Acesso bloqueado apos troca de dispositivo."
+      ],
+      "observacoes": [
+        "O suporte deve informar proximo passo e prazo."
       ]
     }
   }

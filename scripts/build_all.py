@@ -18,6 +18,7 @@ from scripts.generate_products import generate_products
 from scripts.generate_tickets import generate_tickets
 from scripts.generate_transactions import generate_transactions
 from scripts.id_factory import IdFactory
+from scripts.io_utils import reset_directory, reset_file
 from scripts.seed_loader import load_seed_bundle
 
 
@@ -42,6 +43,16 @@ def main() -> None:
         chunk_size=args.chunksize,
         output_dir=args.output_dir,
     )
+    for file_name in [
+        "produtos_financeiros.csv",
+        "clientes.csv",
+        "contas.csv",
+        "transacoes.csv",
+        "tickets_atendimento.csv",
+        "features_clientes.csv",
+    ]:
+        reset_file(run_config.output_dir / file_name)
+    reset_directory(run_config.documents_dir)
     id_factory = IdFactory()
     seeds = load_seed_bundle()
     products = generate_products(run_config, id_factory)

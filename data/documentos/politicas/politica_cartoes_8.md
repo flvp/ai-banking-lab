@@ -12,8 +12,8 @@ Abrange cartoes e canais de atendimento relacionados ao produto Cartao Gold Mais
 - Contestacoes do produto Cartao Gold Mais 2 devem manter o historico completo da analise.
 
 ## Excecoes
-- Falhas sistêmicas podem demandar retomada manual do limite.
-- Cartoes premium podem seguir fila prioritária de suporte.
+- Falhas sistemicas podem demandar retomada manual do limite.
+- Cartoes premium podem seguir fila prioritaria de suporte.
 
 ## Procedimento
 1. Identificar o cartao e o evento reportado.

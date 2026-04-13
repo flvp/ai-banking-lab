@@ -12,8 +12,8 @@ Aplica-se a clientes varejo, alta renda e private com acesso ao produto Cartao G
 - Contestacoes do produto Cartao Gold Mais devem manter o historico completo da analise.
 
 ## Excecoes
-- Falhas sistêmicas podem demandar retomada manual do limite.
-- Cartoes premium podem seguir fila prioritária de suporte.
+- Falhas sistemicas podem demandar retomada manual do limite.
+- Cartoes premium podem seguir fila prioritaria de suporte.
 
 ## Procedimento
 1. Identificar o cartao e o evento reportado.
